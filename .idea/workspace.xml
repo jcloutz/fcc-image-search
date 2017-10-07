@@ -2,8 +2,189 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b525338-56f7-4be1-a015-fc7f79b67ab4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/image_search" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/context.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/context_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/fallthrough_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/group.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/group_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/panichandler.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/path.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/path_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/router.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/router_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/tree.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/tree_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/treemux_16.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/treemux_17.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/bench_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/errors.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/errors_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/example_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/format_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/stack.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/stack_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/auth.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/auth_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/bson.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/bson_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/decimal.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/decimal_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/decode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/encode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/json.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/json_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/specdata/update.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/specdata_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bulk.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bulk_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/cluster.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/cluster_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/dbtest/dbserver.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/dbtest/dbserver_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/dbtest/export_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/doc.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/export_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/gridfs.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/gridfs_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/certs/client.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/certs/client.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/certs/client.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/certs/client.req" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/certs/server.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/certs/server.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/certs/server.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/.env" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg1/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg1/db/journal/tempLatencyTest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg1/db/mongod.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg1/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg1/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg2/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg2/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg2/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg3/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg3/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/cfg3/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db1/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db1/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db1/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db2/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db2/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db2/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db3/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db3/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/db3/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1a/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1a/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1a/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1b/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1b/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1b/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1c/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1c/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs1c/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2a/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2a/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2a/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2b/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2b/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2b/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2c/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2c/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs2c/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3a/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3a/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3a/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3b/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3b/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3b/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3c/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3c/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs3c/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs4a/db/.empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs4a/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/rs4a/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/s1/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/s1/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/s2/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/s2/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/s3/log/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/daemons/s3/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/mongojs/dropall.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/mongojs/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/mongojs/wait.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/harness/setup.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/bench_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/decode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/decode_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/encode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/encode_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/example_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/extension.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/extension_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/fold.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/fold_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/indent.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/number_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/scanner.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/scanner_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/stream.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/stream_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/tagkey_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/tags.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/tags_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/testdata/code.json.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl_windows.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl_windows.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl_windows.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sspi_windows.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sspi_windows.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/scram/scram.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/scram/scram_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/log.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/queue.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/queue_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/raceoff.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/raceon.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/saslimpl.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/saslstub.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/server.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/session.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/session_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/socket.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/stats.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/suite_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/syscall_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/syscall_windows_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/chaos.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/debug.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/dockey_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/flusher.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/output.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/sim_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/tarjan.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/tarjan_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/txn.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/txn/txn_test.go" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gopkg.toml" afterPath="$PROJECT_DIR$/Gopkg.toml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +211,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gopkg.toml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gopkg.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="93">
               <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -106,6 +297,7 @@
         <option value="$PROJECT_DIR$/archive_service.go" />
         <option value="$PROJECT_DIR$/google_api_response.go" />
         <option value="$PROJECT_DIR$/Gopkg.toml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -441,8 +633,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gopkg.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="93">
           <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
