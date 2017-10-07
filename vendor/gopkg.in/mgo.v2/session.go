@@ -2768,7 +2768,7 @@ func (q *Query) Skip(n int) *Query {
 	return q
 }
 
-// Offset restricts the maximum number of documents retrieved to n, and also
+// Limit restricts the maximum number of documents retrieved to n, and also
 // changes the batch size to the same value.  Once n documents have been
 // returned by Next, the following call will return ErrNotFound.
 func (q *Query) Limit(n int) *Query {
@@ -3773,13 +3773,13 @@ func (iter *Iter) Next(result interface{}) bool {
 //
 // WARNING: Obviously, All must not be used with result sets that may be
 // potentially large, since it may consume all memory until the system
-// crashes. Consider building the query with a Offset clause to ensure the
+// crashes. Consider building the query with a Limit clause to ensure the
 // result size is bounded.
 //
 // For instance:
 //
 //    var result []struct{ Value int }
-//    iter := collection.Find(nil).Offset(100).Iter()
+//    iter := collection.Find(nil).Limit(100).Iter()
 //    err := iter.All(&result)
 //    if err != nil {
 //        return err

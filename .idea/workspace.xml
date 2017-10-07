@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b525338-56f7-4be1-a015-fc7f79b67ab4" name="Default" comment="" />
+    <list default="true" id="1b525338-56f7-4be1-a015-fc7f79b67ab4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/context.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/group.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/panichandler.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/path.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/router.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/tree.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/treemux_16.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/dimfeld/httptreemux/treemux_17.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/errors.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/github.com/pkg/errors/stack.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/auth.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/bson.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/decimal.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/decode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/encode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bson/json.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/bulk.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/cluster.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/doc.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/gridfs.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/decode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/encode.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/extension.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/fold.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/indent.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/scanner.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/stream.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/json/tags.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl_windows.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl_windows.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sasl_windows.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sspi_windows.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/sasl/sspi_windows.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/internal/scram/scram.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/log.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/queue.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/raceoff.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/raceon.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/saslimpl.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/saslstub.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/server.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/session.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/socket.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/gopkg.in/mgo.v2/stats.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/vendor.json" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,21 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
+            <state relative-caret-position="525">
               <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vendor.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/vendor.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -138,11 +186,6 @@
               <item name="fcc-image-search" type="b2602c69:ProjectViewProjectNode" />
               <item name="fcc-image-search" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fcc-image-search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fcc-image-search" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -199,9 +242,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -263,7 +305,7 @@
         <state relative-caret-position="960">
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
-            <element signature="e#14#114#0" expanded="true" />
+            <element signature="e#14#114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -291,7 +333,7 @@
         <state relative-caret-position="960">
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
-            <element signature="e#14#114#0" expanded="true" />
+            <element signature="e#14#114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -317,7 +359,7 @@
         <state relative-caret-position="960">
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
-            <element signature="e#14#114#0" expanded="true" />
+            <element signature="e#14#114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -353,7 +395,7 @@
         <state relative-caret-position="1280">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
-            <element signature="e#14#114#0" expanded="true" />
+            <element signature="e#14#114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -393,7 +435,7 @@
         <state relative-caret-position="640">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
-            <element signature="e#14#114#0" expanded="true" />
+            <element signature="e#14#114#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -424,18 +466,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/vendor/vendor.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        <state relative-caret-position="309">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/vendor.json">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        <state relative-caret-position="525">
+          <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding />
         </state>
       </provider>
