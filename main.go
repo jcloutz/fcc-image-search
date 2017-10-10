@@ -48,6 +48,7 @@ func main() {
 	}
 
 	r := httptreemux.New()
+	r.GET("/", h.Index)
 	r.GET("/api/imagesearch/:query", h.ImageSearch)
 	r.GET("/api/latest/imagesearch", h.Latest)
 

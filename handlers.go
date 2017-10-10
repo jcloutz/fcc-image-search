@@ -3,10 +3,14 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"html/template"
 	"net/http"
+	"path"
 	"strconv"
 
 	"io"
+
+	"os"
 
 	"github.com/pkg/errors"
 	"gopkg.in/mgo.v2"
@@ -29,6 +33,18 @@ var (
 	ErrUnableToSaveQuery              = errors.New("Unable to save document to database")
 	ErrUnableToLocatePreviousSearches = errors.New("Unable to locate previous searches")
 )
+
+func (h *Handlers) Index(w http.ResponseWriter, r *http.Request, params map[string]string) {
+	file := path.Join("index.html")
+
+	tempVars := struct {
+		Host string
+	}{
+		Host: os.Getenv("APP_HOST"),
+	}
+	temp, _ := template.ParseFiles(file)
+	temp.Execute(w, &tempVars)
+}
 
 // ImageSearch is the handler for querying google's api
 func (h *Handlers) ImageSearch(w http.ResponseWriter, r *http.Request, params map[string]string) {

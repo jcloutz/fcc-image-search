@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FCC Go Image Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            border-bottom: 1px solid #6991ad;
+        }
+
+        code {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #cbeaff;
+            border: 1px solid #6991ad;
+            border-radius: 3px;
+            color: #345871;
+            overflow-x: scroll;
+        }
+
+        code a:hover {
+            color: #404a51;
+        }
+
+        pre {
+            margin: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 0 24px 0;
+            padding: 0;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #6991ad;
+            text-decoration: none;
+            transition: all .4s ease-in-out
+        }
+
+        a:hover {
+            color: #cbeaff;
+            text-decoration: none;
+        }
+
+        strong {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>FCC Go Image Search Abstraction Layer</h1>
+    <p>
+        This is a url shortener microservice written with
+        <a href="https://golang.org">Go</a> as a solution to Free Code
+        Camp's <a href="https://www.freecodecamp.org/challenges/image-search-abstraction-layer">URL Shortener Microservice
+        API Project</a>
+    </p>
+    <p><a href="https://github.com/jcloutz/fcc-image-search">View Source</a></p>
+    <h2>Instructions</h2>
+    <ul>
+        <li>
+            <strong>Search for images</strong>
+            Parameters:
+            <ul>
+                <li>offset: <i>int</i> default 1, </li>
+            </ul>
+            <code>
+                <a href="{{ .Host }}/api/imagesearch/lolcats?offset=1">{{ .Host }}/api/imagesearch/lolcats?offset=1</a>
+            </code>
+            Expected output:
+            <code>
+                <pre>
+[
+    {
+        url: "http://i0.kym-cdn.com/photos/images/original/001/284/242/202.jpg",
+        snippet: "LOLcats | Know Your Meme",
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJE7uvsmEKEj2i-GEWuOJ_pBy8OTx2guE3bFWFkINcl4tmMZ37OBPn7Hb",
+        context: "http://knowyourmeme.com/photos/1284242-lolcats"
+    }
+]</pre>
+            </code>
+        </li>
+        <li>
+            <strong>View Recent Queries</strong>
+            <code>
+                <a href="{{ .Host }}/api/latest/imagesearch">{{ .Host }}/api/latest/imagesearch</a>
+            </code>
+            Will redirect to:
+            <code>
+                <pre>
+[
+    {
+        term: "lolcats",
+        when: "2017-10-09T20:49:39.49-04:00"
+    },
+    {
+        term: "loldogs",
+        when: "2017-10-06T23:33:02.293-04:00"
+    }
+]
+                </pre>
+            </code>
+        </li>
+
+    </ul>
+</div>
+
+</body>
+</html>
