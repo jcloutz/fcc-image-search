@@ -1,4 +1,4 @@
-# FCC Image Search Abstraction Layert remote
+# FCC Image Search Abstraction Layer
 
 View project [https://shielded-wave-67326.herokuapp.com](https://shielded-wave-67326.herokuapp.com)
 
